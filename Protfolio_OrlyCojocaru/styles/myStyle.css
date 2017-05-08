@@ -1,0 +1,398 @@
+/*הגדרת עמוד ראשי*/
+body 
+{
+   direction:rtl;
+   background-image: url('images/urban-photography.jpg'); 
+   background-repeat:no-repeat;
+   background-size:cover;
+   font-family: 'Varela Round', sans-serif;
+   
+}   
+#container {
+    margin: 0 auto;
+    width: 1500px;
+}
+#MainSen{
+    font-size:90px;
+    color:white;
+    text-align:center;
+    font-weight:bold;
+    padding-top:30px;
+   text-shadow: 5px 5px 3px #C4A7C2;
+}
+#HomePageNav {
+     font-size:35px;
+     display: inline-block;
+    text-align:center;
+ text-shadow: 1px 1px 1px #C4A8C2;
+   }
+#UlHomePage {
+    list-style:none;
+    display: inline-block;
+     text-align:center;
+}   
+#HomePageNav #UlHomePage .LiHomePage{
+    display: inline-block;
+   float:right;
+   padding-right:50px;
+ 
+     
+}
+#HomePageNav #UlHomePage .LiHomePage a {
+color: white;
+font-weight:bold;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+
+}
+.LiHomePage{
+    padding:9px;
+}
+#HomePageNav #UlHomePage .LiHomePage a:hover
+{
+background-color: #AEC3B7;
+-webkit-border-radius: 10px 10px 10px 10px;
+border-radius: 9px 9px 9px 9px;
+
+
+}
+#HomePageNav #UlHomePage .LiHomePage a:active
+{
+background-color:#CEA572;
+}
+#icons {
+padding:8px 8px 8px 8px;
+ display:inline-block;
+}
+
+
+
+
+.AboutSelf{
+    font-size:22px;
+    color:black;
+    font-weight:bold;
+    height: 180px;
+    width: 420px;
+    background: rgba(285,235,255,0.9);
+    border-radius: 7px;
+    text-align:center;
+     line-height:27px;
+   
+     
+}
+#MainPageTable {
+    margin: 0 auto;
+
+}
+.Gap {
+    height:15px;
+    width: 15px;
+}
+#audio{
+    margin-right:50px;
+}
+
+/*הגדרת עמוד קולאז' עצמי*/
+#container {
+    margin: 0 auto;
+    width: 960px;
+}
+
+#MainSenOtherPage {
+    font-size: 50px;
+    color: white;
+    text-align:center;
+    font-weight: bold;
+    padding-top: 30px;
+    text-shadow: 3px 3px 3px #C4A7C2;
+}
+#OtherPageNav {
+     font-size:35px;
+     display: inline;
+    text-align:center;
+ text-shadow: 1px 1px 1px #C4A8C2;
+    }
+#UlOtherPage {
+    list-style:none;
+    display: inline;
+}   
+#OtherPageNav #UlOtherPage .LiOtherPage{
+    display: inline;
+   float:right;
+    padding-right:50px;
+ 
+     
+}
+#OtherPageNav #UlOtherPage .LiOtherPage a {
+color: white;
+font-weight:bold;
+text-align: center;
+text-decoration: none;
+display: inline;
+
+}
+.LiOtherPage{
+    padding:9px;
+}
+#OtherPageNav #UlOtherPage .LiOtherPage a:hover
+{
+background-color: #AEC3B7;
+-webkit-border-radius: 10px 10px 10px 10px;
+border-radius: 9px 9px 9px 9px;
+}
+#OtherPageNav #UlOtherPage .LiOtherPage a:active
+{
+background-color:#CEA572;
+}
+#ExplainColaz{
+    font-size:25px;
+    color:black;
+    height: 600px;
+    width: 1500px;
+    background: rgba(255,255,255,0.6);
+    border-radius: 12px;
+    text-align:match-parent;
+    line-height:40px;
+    font-weight:bold;
+}
+#Colaz{
+     height: 600px;
+     width: 1000px;
+     background: rgba(255,255,255,0.6);
+     border-radius: 12px;
+    }
+#ChoosimgMyself{
+     font-size:45px;
+     color:black;
+     font-weight:bold;
+     line-height:50px;
+}
+
+#OtherPageTable{
+ margin: 0 auto;
+}
+.GapOtherPage {
+    height:25px;
+    width: 25px;
+}
+
+#imgColaz {
+    height:470px;
+    width: 590px;
+}
+
+
+/*הגדרת עמוד פרויקט סוף תקשורת חזותית*/
+#container {
+    margin: 0 auto;
+    width: 960px;
+}
+
+#MainSenOtherPage {
+    font-size: 50px;
+    color: white;
+    text-align:center;
+    font-weight: bold;
+    padding-top: 30px;
+    text-shadow: 3px 3px 3px #C4A7C2;
+}
+#OtherPageNav {
+     font-size:35px;
+     display: inline;
+    text-align:center;
+    text-shadow: 1px 1px 1px #C4A8C2;
+   
+    }
+#UlOtherPage {
+    list-style:none;
+    display: inline;
+     text-align:center;
+      margin-right:30px;
+}   
+#OtherPageNav #UlOtherPage .LiOtherPage{
+    display: inline;
+   float:right;
+    text-align:center;
+
+     
+}
+#OtherPageNav #UlOtherPage .LiOtherPage a {
+color: white;
+font-weight:bold;
+text-align: center;
+text-decoration: none;
+display: inline;
+
+}
+
+#OtherPageNav #UlOtherPage .LiOtherPage a:hover
+{
+background-color: #AEC3B7;
+-webkit-border-radius: 10px 10px 10px 10px;
+border-radius: 9px 9px 9px 9px;
+}
+#OtherPageNav #UlOtherPage .LiOtherPage a:active
+{
+background-color:#CEA572;
+}
+#active{
+    background-color:#89846D;
+   -webkit-border-radius: 10px 10px 10px 10px;
+   border-radius: 9px 9px 9px 9px;
+   }
+#ExplainDenial{
+    font-size:25px;
+    color:black;
+    width:300px;
+    background: rgba(255,255,255,0.6);
+    border-radius: 12px;
+    text-align:match-parent;
+    line-height:40px;
+    font-weight:bold;
+   
+}
+#Denial{
+     height: 600px;
+     width: 900px;
+     background: rgba(255,255,255,0.6);
+     border-radius: 12px;
+    }
+#DenialMainSen{
+     font-size:45px;
+     color:black;
+     font-weight:bold;
+     line-height:50px;
+}
+
+#OtherPageTable{
+ margin: 0 auto;
+ padding-top:50px;
+}
+.GapOtherPage {
+    height:25px;
+    width: 25px;
+}
+
+#imgFinal {
+    height:540px;
+    width: 350px;
+
+}
+#DenialYouTube{
+    height: 420px;
+    width: 640px;
+    background: rgba(255,255,255,0.6);
+    border-radius: 12px;  
+    
+}
+#VideoFinal{
+ height:350px;
+    width: 500px;
+    margin-right:15px;
+  
+}
+#GapVideo{
+  height:3px;
+    width: 3px
+}
+
+/*הגדרת עמוד פרזנטציה*/
+#container {
+    margin: 0 auto;
+    width: 960px;
+}
+
+#MainSenOtherPage {
+    font-size: 50px;
+    color: white;
+    text-align:center;
+    font-weight: bold;
+    padding-top: 30px;
+    text-shadow: 3px 3px 3px #C4A7C2;
+}
+#OtherPageNav {
+     font-size:35px;
+     display: inline;
+    text-align:center;
+ text-shadow: 1px 1px 1px #C4A8C2;
+    }
+#UlOtherPage {
+    list-style:none;
+    display: inline;
+}   
+#OtherPageNav #UlOtherPage .LiOtherPage{
+    display: inline;
+   float:right;
+    padding-right:50px;
+ 
+     
+}
+#OtherPageNav #UlOtherPage .LiOtherPage a {
+color: white;
+font-weight:bold;
+text-align: center;
+text-decoration: none;
+display: inline;
+
+}
+.LiOtherPage{
+    padding:9px;
+}
+#OtherPageNav #UlOtherPage .LiOtherPage a:hover
+{
+background-color: #AEC3B7;
+-webkit-border-radius: 10px 10px 10px 10px;
+border-radius: 9px 9px 9px 9px;
+}
+#OtherPageNav #UlOtherPage .LiOtherPage a:active
+{
+background-color:#CEA572;
+}
+#ExplainPresentation{
+    font-size:25px;
+    color:black;
+    height: 600px;
+    width: 1500px;
+    background: rgba(255,255,255,0.6);
+    border-radius: 12px;
+    text-align:match-parent;
+    line-height:40px;
+    font-weight:bold;
+}
+#Presentation{
+     
+     height: 600px;
+     width: 1000px;
+     background: rgba(255,255,255,0.6);
+     border-radius: 12px;
+    }
+#FinalPresentationExp{
+     font-size:45px;
+     color:black;
+     font-weight:bold;
+    line-height:50px;
+}
+
+#OtherPageTable{
+ margin: 0 auto;
+}
+.GapOtherPage {
+    height:25px;
+    width: 25px;
+}
+#Presentation {
+   height: 600px;
+     width: 900px;
+     background: rgba(255,255,255,0.6);
+     border-radius: 12px;
+
+}
+#PresentationVideo{
+    height:450px;
+    width: 500px;
+   margin: 30px 30px 30px 30px;
+}
+
+
